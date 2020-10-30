@@ -19,6 +19,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8DC9521929C565DE4FD32634 /* libPods-pqgold-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 288C333748B21388A51ABCF7 /* libPods-pqgold-tvOS.a */; };
 		8FC49D1E64F836E75A1991A7 /* libPods-pqgold.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A0ED38E6B0E45C0D3612B0 /* libPods-pqgold.a */; };
+		C929ABAA254C0CF6003DF900 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C929ABA9254C0CF6003DF900 /* GoogleService-Info.plist */; };
 		EE27B309DD92EDFF8BAF6297 /* libPods-pqgold-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C39D5CB71BF7A7BBAA82F5 /* libPods-pqgold-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		9168661B99E9D61AD9A85322 /* Pods-pqgold-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pqgold-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-pqgold-tvOSTests/Pods-pqgold-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC37CBB37F74F1A6CAE20758 /* Pods-pqgold-pqgoldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pqgold-pqgoldTests.debug.xcconfig"; path = "Target Support Files/Pods-pqgold-pqgoldTests/Pods-pqgold-pqgoldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE3A1A05EDBE5B4523FA64D8 /* Pods-pqgold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pqgold.debug.xcconfig"; path = "Target Support Files/Pods-pqgold/Pods-pqgold.debug.xcconfig"; sourceTree = "<group>"; };
+		C929ABA9254C0CF6003DF900 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* pqgold */ = {
 			isa = PBXGroup;
 			children = (
+				C929ABA9254C0CF6003DF900 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -342,6 +345,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C929ABAA254C0CF6003DF900 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
